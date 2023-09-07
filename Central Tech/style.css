@@ -1,0 +1,257 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #eaeeec, #504c4c 50%);
+    color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+
+/* Container principal */
+div#interface {
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgb(75, 74, 74);
+    padding: 10px;
+    position: relative;
+}
+
+/* Parágrafos */
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Links */
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Cabeçalho */
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 120px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1050px;
+    top: 20px;
+    width: 150px;
+    border-radius: 30%;
+}
+
+header#cabecalho h1 {
+    font-family: fontelogo, sans-serif;
+    font-size: 30pt;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25pt;
+    color: rgb(56, 65, 60);
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Imagens com legenda */
+figure.foto-legend {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legend img {
+    height: 100%;
+}
+
+figure.foto-legend figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.6s;
+}
+
+figure.foto-legend:hover figcaption {
+    opacity: 1;
+}
+
+/* Menu */
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -8px;
+    left: 780px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #00ff33;
+    padding: 10px;
+    margin: 4px;
+    transition: background-color 1s;
+    border-radius: 10%;
+}
+
+nav#menu li:hover {
+    background-color: #000000;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: rgb(99, 94, 94);
+    text-decoration: none;
+    transition: color 1s;
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Corpo do conteúdo */
+section#body {
+    display: block;
+    width: 600px;
+    margin-left: 300px;
+    padding-right: 50px;
+}
+
+/* Títulos do artigo principal */
+article#noticia-principal h2 {
+    position: relative;;
+    font-size: 12pt;
+    color: #000000;
+    background: #eaeeec;
+    padding: 10px 10px 10px 8px;
+    margin: 10px;
+    width: 1202px;
+    right: 340px;
+}
+
+header#cabecalho-artigo h1 {
+    font-family: fontelogo, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #9e9c9c;
+    background: #fff;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 12px;
+    color: #606060;
+}
+
+.direita {
+    text-align: right;
+}
+
+/* Tabelas */
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+
+table#tabelaspec td.ce {
+    color: white;
+    vertical-align: top;
+    text-align: center;
+    background: #606060;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    color: white;
+    vertical-align: top;
+    background: #b8b7b7;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 10pt;
+    margin-top: 10px;
+}
+
+/* Barra lateral */
+aside#side {
+    display: block;
+    width: 450px;
+    float: right;
+    margin-top: 10px;
+    padding-right: 60px;
+    background: #ddd;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+aside#side h1 {
+    font-family: 'fontelogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#side h2 {
+    background: #606060;
+    font-size: 13pt;
+    color: white;
+    padding: 5px;
+}
+
+/* Rodapé */
+footer#foot {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#foot p {
+    text-align: center;
+}
