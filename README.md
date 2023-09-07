@@ -5,15 +5,15 @@
 
 Este é o repositório do projeto de Empreendedorismo no Mercado de Softwares, desenvolvido para a Universidade Nove de Julho, projeto que por sua vez acontece todo semestre substituindo o Trabalho de Conclusão de Curso (TCC). O projeto envolve o desenvolvimento de um site para a empresa fictícia Central Tech, uma empresa que se dedica ao desenvolvimento de software para outras empresas, abrangendo os segmentos web, mobile e desktop.
 
-O objetivo deste projeto não é apenas criar um software, mas também enfatiza a criação de uma documentação completa e detalhada. O projeto de software em si é relativamente simples e não é o principal ponto cobrado pelos mestres que ministram a disciplina, mas a documentação do mesmo desempenha um papel crucial neste contexto e é devidamente conbrada.
+O objetivo deste projeto não é apenas criar um software, mas também enfatiza a criação de uma documentação completa e detalhada. O projeto de software em si é relativamente simples e não é o principal ponto cobrado pelos mestres que ministram a disciplina, mas a documentação do mesmo desempenha um papel crucial neste contexto e é devidamente cobrada.
 
 Fiz algumas pequenas modificações na estilização do nosso site, utilizando alguns conhecimentos que aprendi durante o tempo em que estudo programação, no projeto original não consegui atuar diretamente na construção do site, já que fiquei com a atribuição de ajudar na criação e formatação da documentação do projeto e no deploy do site,
 no link abaixo está a versão do nosso projeto modificada por mim e também a versão original do mesmo.  
 
-##Link do site (Modificado por mim)
+## Link do site (Modificado por mim)
 https://gunovaes.github.io/ProjetoUninove2023/Central%20Tech/index.html
 
-##Link do site (Projeto Original)
+## Link do site (Projeto Original)
 https://6471548fc137bd1983d894c2--gentle-mousse-156117.netlify.app/
 
 ## Link da Documentação:
